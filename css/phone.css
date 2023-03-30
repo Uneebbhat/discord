@@ -1,0 +1,88 @@
+@media screen and (max-width:1084px) {
+    .hero-wrapper {
+        padding: 30px 20px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .invite-wrapper {
+        padding: 30px 20px;
+    }
+
+    .hang-out-wrapper {
+        padding: 30px 20px;
+    }
+    
+    .fandom-wrapper {
+        padding: 30px 20px;
+    }
+
+    .reliable-wrapper {
+        padding: 30px 20px;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .navbar .desk-links{
+        display: none;
+    }
+
+    .footer-wrapper {
+        padding: 30px 20px;
+    }
+
+    .ham {
+        display: block;
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width:906px) {
+    .hero-wrapper {
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    .invite-wrapper {
+        flex-direction: column;
+    }
+
+    .about-invite {
+        margin-top: 20px;
+    }
+
+    .hang-out-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .about-hang-out {
+        margin-top: 20px;
+    }
+
+    .fandom-wrapper {
+        flex-direction: column;
+    }
+
+    .about-fandom {
+        margin-top: 20px;
+    }
+
+    .footer-wrapper {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-links {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
